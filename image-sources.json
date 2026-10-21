@@ -1,0 +1,30 @@
+[
+  {
+    "sourceUrl": "https://www.pexels.com/photo/a-cup-of-black-coffee-585754/",
+    "downloadUrl": "https://images.pexels.com/photos/585754/pexels-photo-585754.jpeg?auto=compress&cs=tinysrgb&w=2400",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "height": 1600,
+    "inspected": true,
+    "license": "Pexels License",
+    "title": "A Cup of Black Coffee",
+    "aspectRatio": "3:2",
+    "width": 2400,
+    "file": "coffee-hero.jpg",
+    "photographer": "Toni Cuenca",
+    "usage": "Decorative coffee hero photography; not represented as DURAS product photography"
+  },
+  {
+    "sourceUrl": "https://unsplash.com/photos/a-bag-of-coffee-beans-next-to-a-coffee-grinder-i7oqDlMFVxc",
+    "downloadUrl": "https://images.unsplash.com/photo-1632929427496-05e89b7e8550?auto=format&fit=crop&fm=jpg&q=85&w=2400",
+    "licenseUrl": "https://unsplash.com/license",
+    "height": 1600,
+    "inspected": true,
+    "license": "Unsplash License",
+    "title": "A bag of coffee beans next to a coffee grinder",
+    "aspectRatio": "3:2",
+    "width": 2400,
+    "file": "coffee-detail.jpg",
+    "photographer": "Ricardo Díaz",
+    "usage": "Decorative coffee still-life photography; not represented as DURAS product photography"
+  }
+]

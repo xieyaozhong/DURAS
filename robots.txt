@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://xieyaozhong.github.io/DURAS/tw/sitemap.xml
+Sitemap: https://xieyaozhong.github.io/DURAS/cn/sitemap.xml
