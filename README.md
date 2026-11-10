@@ -8,7 +8,13 @@
 
 ## 品牌故事與 QR Code
 
-[繁體品牌故事](https://xieyaozhong.github.io/DURAS/our-story/) · [简体品牌故事](https://xieyaozhong.github.io/DURAS/our-story/zh-cn.html)。兩份獨立 HTML 共用 our-story/story.css，不需要 JavaScript。若更改分享網址，請重新產生並解碼驗證 our-story/assets/ 下的 PNG、SVG 二維碼。產地照片署名與授權見 our-story/assets/sources.json。
+[繁體品牌故事](https://xieyaozhong.github.io/DURAS/our-story/) · [简体品牌故事](https://xieyaozhong.github.io/DURAS/our-story/zh-cn.html)。兩份獨立 HTML 共用 our-story/story.css；品牌故事、核心理念與官網連結不需 JavaScript。頁首照片為 DURAS 提供的老闆親訪莊園實照。若更改分享網址，請重新產生並解碼驗證 our-story/assets/ 下的 PNG、SVG 二維碼。產地照片署名與授權見 our-story/assets/sources.json。
+
+### 咖啡風味翻牌與祝福卡
+
+[直接玩繁體版](https://xieyaozhong.github.io/DURAS/our-story/#coffee-game) · [直接玩简体版](https://xieyaozhong.github.io/DURAS/our-story/zh-cn.html#coffee-game)。配對花香、莓果、可可三組圖案後，每輪可以抽一張卡，並從卡面直接打開當地豆單相應的商品詳情。遊戲在瀏覽器內運作。
+
+遊戲邏輯與版面是 our-story/game.js 及 game.css；卡片資料在 our-story/assets/blessings.js。更新豆單時，請同步核對兩區商品 ID、中文名稱與風味，並保留西班牙語諺語的出處。
 
 ## 網站內容
 

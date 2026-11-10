@@ -1,0 +1,109 @@
+#coffee-game-root {
+  --dg-forest: #213d35;
+  --dg-wine: #772e31;
+  --dg-gold: #d9b878;
+  --dg-paper: #fffaf0;
+  --dg-ink: #293b30;
+  color: var(--dg-ink);
+  max-width: 850px;
+  margin-inline: auto;
+  min-width: 0;
+}
+#coffee-game-root *, #coffee-game-root *::before, #coffee-game-root *::after { box-sizing: border-box; }
+#coffee-game-root [hidden] { display: none !important; }
+#coffee-game-root button, #coffee-game-root textarea { font: inherit; }
+#coffee-game-root button { cursor: pointer; }
+#coffee-game-root button:disabled { cursor: default; }
+#coffee-game-root :is(button,a,textarea):focus-visible { outline: 3px solid #b66928; outline-offset: 4px; }
+.dg-table {
+  background: #f8f3e7;
+  border: 1px solid #c8bfac;
+  border-top: 4px solid var(--dg-forest);
+  padding: clamp(18px, 4vw, 42px);
+  box-shadow: 0 6px 0 -2px #e6dcc9;
+}
+.dg-head { display: flex; justify-content: space-between; align-items: center; gap: 14px; }
+.dg-over, .dg-card-kicker { color: var(--dg-wine); font: 650 10px/1.5 var(--sans,system-ui); letter-spacing: .15em; }
+.dg-head h3 { margin: 6px 0 0; color: var(--dg-forest); font: 500 clamp(25px, 4vw, 38px)/1.35 var(--serif,Georgia,serif); }
+.dg-score { min-width: 72px; flex-shrink: 0; text-align: right; }
+.dg-score strong { display: block; color: var(--dg-wine); font: italic 34px/1.1 Georgia,serif; }
+.dg-score span { display: block; margin-top: 5px; font: 500 12px/1.5 var(--sans,system-ui); letter-spacing: .04em; }
+.dg-rules { margin: 18px 0 23px; max-width: 40em; color: #575647; font: 15px/1.8 var(--sans,system-ui); }
+.dg-board { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: clamp(8px,1.6vw,14px); }
+#coffee-game-root .dg-tile {
+  position: relative; isolation:isolate; min-width:0; min-height: 112px; height: clamp(112px, 12vw, 144px);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  padding: 9px 4px; overflow: hidden; border: 1px solid #315043; border-radius: 3px;
+  background: var(--dg-forest); color: #f6ead0; box-shadow: 0 3px 0 #172d25;
+  line-height: 1.3; transition: box-shadow .16s, transform .16s, background-color .2s;
+  touch-action: manipulation;
+}
+.dg-tile::before { content:''; position:absolute; z-index:-1; inset:5px; border:1px solid #d4bd8580; pointer-events:none; }
+.dg-tile[data-state="back"]::after {
+  content:''; position:absolute; z-index:-1; inset:9px; border:1px solid #d4bd853d;
+  background:repeating-linear-gradient(45deg, transparent 0 9px, #e5d2a30b 9px 10px);
+  pointer-events:none;
+}
+.dg-stamp {
+  display: grid; place-items: center; width: 51px; height: 51px; border: 1px solid #d8bd80;
+  border-radius: 50%; color: #f3dba6; font: italic 34px/1 Georgia,serif;
+  box-shadow: inset 0 0 0 4px var(--dg-forest), inset 0 0 0 5px #e5d2a34d;
+}
+.dg-deck-no { margin-top: 7px; font: 10px/1.3 Georgia,serif; letter-spacing: .14em; }
+#coffee-game-root .dg-tile[data-state="open"] { background: #fff9ec; color: var(--dg-wine); border-color: #a97b4c; box-shadow: 0 3px 0 #a97b4c; }
+#coffee-game-root .dg-tile[data-state="matched"] { background: #e2e7d9; color: #284b3c; border-color: #738a6f; box-shadow: 0 3px 0 #738a6f; cursor: default; }
+.dg-tile[data-state="open"]::before, .dg-tile[data-state="matched"]::before { border-color: #8c7e5d63; }
+.dg-tile svg { width: clamp(31px, 4vw, 43px); height: clamp(31px, 4vw, 43px); }
+.dg-tile strong { font: 600 clamp(16px, 2vw, 22px)/1.45 var(--serif,Georgia,serif); }
+.dg-tile small { font: 9px/1.4 var(--sans,system-ui); letter-spacing: .12em; }
+.dg-pip { position: absolute; top: 9px; left: 11px; font: 600 11px/1.3 var(--sans,system-ui); }
+@media (hover:hover) { #coffee-game-root .dg-tile[data-state="back"]:not(:disabled):hover { transform: translateY(-2px); box-shadow: 0 5px 0 #172d25; } }
+.dg-progress { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 19px 0 6px; }
+.dg-attempts { color: #525547; font: 13px/1.5 var(--sans,system-ui); }
+.dg-dots { display: flex; gap: 6px; } .dg-dots i { width: 18px; height: 5px; background: #d5cdbb; } .dg-dots .dg-dot-on { background: var(--dg-forest); }
+.dg-status { margin: 0; min-height: 2em; font: 15px/1.75 var(--sans,system-ui); }
+.dg-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 15px; }
+#coffee-game-root :is(.dg-start,.dg-draw,.dg-copy,.dg-replay), .dg-shop {
+  display:inline-flex; align-items:center; justify-content:center; gap:12px; min-height:46px; max-width:100%;
+  border:1px solid var(--dg-forest); border-radius:0; padding:10px 19px; font:600 14px/1.55 var(--sans,system-ui);
+  text-decoration:none; touch-action:manipulation;
+}
+#coffee-game-root .dg-start { color: var(--dg-forest); background: transparent; }
+#coffee-game-root .dg-draw { color: #fff8eb; background: var(--dg-wine); border-color: var(--dg-wine); }
+#coffee-game-root .dg-draw:disabled { color:#666251; background:#e8e1d1; border-color:#cec4ae; }
+#coffee-game-root .dg-draw:not(:disabled):hover, .dg-shop:hover { background:#591e21; }
+#coffee-game-root .dg-start:hover, #coffee-game-root .dg-copy:hover, #coffee-game-root .dg-replay:hover { background:#e9e2d3; }
+.dg-result { scroll-margin-top:24px; margin:30px auto 0; max-width:660px; }
+.dg-card { position:relative; background:var(--dg-paper); border:1px solid #aa9271; box-shadow:4px 5px 0 #d9cfb9; }
+.dg-card-rail { display:flex; gap:14px; justify-content:space-between; align-items:center; background: var(--dg-forest); color:#f4e7cd; padding:12px clamp(16px,4vw,32px); }
+.dg-card-rail span { font:600 10px/1.55 var(--sans,system-ui); letter-spacing:.13em; }
+.dg-card-rail i { font:italic 19px/1 Georgia,serif; white-space:nowrap; color:#e6c88e; }
+.dg-card-body { position:relative; padding:clamp(21px,5vw,46px); }
+.dg-card-body::before { content:''; position:absolute; inset:8px; border:1px solid #d7c9af; pointer-events:none; }
+.dg-card-title { color:var(--dg-wine); font:500 clamp(29px,4.5vw,48px)/1.42 var(--serif,Georgia,serif); margin:9px 0 14px; }
+.dg-bean { font:650 clamp(17px,2.4vw,22px)/1.65 var(--serif,Georgia,serif); margin:0; }
+.dg-bean-notes { display:block; color:#626251; font:14px/1.75 var(--sans,system-ui); margin-top:3px; }
+.dg-meaning { margin:17px 0 0; color:#383d32; font:16px/1.9 var(--sans,system-ui); }
+.dg-quote { border-left:2px solid #a27e49; padding:2px 0 3px 17px; margin:22px 0; }
+.dg-quote p[lang="es"] { font:italic clamp(19px,2.8vw,25px)/1.45 Georgia,serif; color:var(--dg-wine); overflow-wrap:anywhere; }
+.dg-translation { font:14px/1.8 var(--sans,system-ui); margin:8px 0 0; }
+.dg-source { display:inline-block; font:12px/1.6 var(--sans,system-ui); margin-top:9px; text-underline-offset:4px; }
+.dg-shop { color:#fff8eb; background:var(--dg-wine); border-color:var(--dg-wine); text-align:center; overflow-wrap:anywhere; }
+.dg-share { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:20px; }
+#coffee-game-root .dg-copy, #coffee-game-root .dg-replay { color:var(--dg-forest); background:transparent; }
+.dg-copy-note { font:13px/1.7 var(--sans,system-ui); color:#515848; }
+#coffee-game-root .dg-manual { display:block; width:100%; min-height:160px; resize:vertical; padding:12px; color:var(--dg-ink); background:#fffaf0; border:1px solid #958d76; font:15px/1.7 var(--sans,system-ui); }
+@media(max-width:560px) {
+  .dg-table { padding:18px 12px; }
+  .dg-over { font-size:9px; letter-spacing:.11em; } .dg-score { min-width:54px; } .dg-score strong { font-size:27px; }
+  .dg-rules { font-size:14px; margin:15px 0 18px; }
+  #coffee-game-root .dg-tile { height:100px; min-height:100px; }
+  .dg-stamp { width:39px; height:39px; font-size:27px; }
+  .dg-pip { left:7px; top:7px; font-size:9px; }
+  .dg-tile::before { inset:3px; } .dg-tile[data-state="back"]::after { inset:6px; }
+  .dg-tile small { font-size:8px; letter-spacing:.06em; }
+  .dg-actions { gap:8px; } .dg-status { font-size:14px; min-height:3.5em; }
+  #coffee-game-root :is(.dg-start,.dg-draw,.dg-copy,.dg-replay) { padding-inline:13px; font-size:13px; }
+  .dg-shop { width:100%; }
+}
+@media(prefers-reduced-motion:reduce) { #coffee-game-root .dg-tile { transition:none; } #coffee-game-root .dg-tile[data-state="back"]:hover { transform:none; } }
