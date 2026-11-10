@@ -6,6 +6,10 @@
 - [台灣網站](https://xieyaozhong.github.io/DURAS/tw/)
 - [大陸網站](https://xieyaozhong.github.io/DURAS/cn/)
 
+## 品牌故事與 QR Code
+
+[繁體品牌故事](https://xieyaozhong.github.io/DURAS/our-story/) · [简体品牌故事](https://xieyaozhong.github.io/DURAS/our-story/zh-cn.html)。兩份獨立 HTML 共用 our-story/story.css，不需要 JavaScript。若更改分享網址，請重新產生並解碼驗證 our-story/assets/ 下的 PNG、SVG 二維碼。產地照片署名與授權見 our-story/assets/sources.json。
+
 ## 網站內容
 
 每站包含首頁、精品咖啡、品牌與服務、咖啡日常、社群匯聚、聯絡及隱私說明。提供產地／風味／關鍵字篩選、商品規格、詢價清單與文字整理。手機與桌面皆可使用。
