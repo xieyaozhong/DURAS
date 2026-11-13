@@ -16,6 +16,16 @@
 
 遊戲邏輯與版面是 our-story/game.js 及 game.css；卡片資料在 our-story/assets/blessings.js。更新豆單時，請同步核對兩區商品 ID、中文名稱與風味，並保留西班牙語諺語的出處。
 
+## 2026 年 11 月到港生豆報價
+
+[完整台灣生豆豆單](https://xieyaozhong.github.io/DURAS/tw/coffee.html?category=green) · [品牌介紹中的本期到港選豆](https://xieyaozhong.github.io/DURAS/our-story/#november-menu)
+
+依品牌提供的新單及本次確認，台灣生豆代烘目錄改為 10 款；1／5／30 公斤欄位均是相應級距的 **每公斤未稅單價（TWD）**。本期生豆 NT$3,000 以上免運，配送範圍、稅額、代烘與包裝細節另洽。
+
+每個批次使用獨立商品 ID。品項的 tiers 記錄 minimumKg 與 unitPrice；詢價清單保留級距與單價，不把公斤單價算成包裝總價。熟豆及耳掛維持各自豆單條件。更新豆單時請同步維護兩份品牌故事 HTML 的本期推薦價格。
+
+原始圖：tw/assets/menu-nov-2026.jpg、our-story/assets/menu-nov-2026.jpg。
+
 ## 網站內容
 
 每站包含首頁、精品咖啡、品牌與服務、咖啡日常、社群匯聚、聯絡及隱私說明。提供產地／風味／關鍵字篩選、商品規格、詢價清單與文字整理。手機與桌面皆可使用。

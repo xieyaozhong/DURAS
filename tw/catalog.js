@@ -1,4 +1,4 @@
-// 依提供豆單整理；實際批次、價格與供應由品牌確認。
+// 2026 年 11 月生豆依最新豆單；1／5／30 公斤級距均為每公斤未稅單價，已由品牌確認。
 window.DURAS_CATALOG = {
   "roastedSource": "4-Photo-4.jpg",
   "roastedHeading": "獨樂思熟豆單",
@@ -220,236 +220,375 @@ window.DURAS_CATALOG = {
     "currencyStatus": "inferred",
     "serviceArea": null
   },
-  "greenSource": "3-Photo-3.jpg",
-  "greenHeading": "獨樂思生豆代烘",
+  "greenSource": "menu-nov-2026.jpg",
+  "greenHeading": "2026 年 11 月到港｜生豆代烘展場價",
   "green": [
     {
-      "id": "tw-green-bloom",
-      "name": "綻放莊園",
+      "id": "tw-green-2026-11-26",
+      "name": "自行車",
       "variety": "藝伎",
-      "origin": "宏都拉斯",
-      "process": "日曬厭氧",
-      "altitude": "1600m",
+      "origin": "",
+      "process": "水洗",
+      "altitude": "1450–1750m",
+      "notes": [
+        "橙花",
+        "檸檬",
+        "柑橘",
+        "接骨木",
+        "黃糖"
+      ],
+      "price": 1800,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 1800,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 1700,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 1600,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 26,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
+    },
+    {
+      "id": "tw-green-2026-11-25",
+      "name": "綻放翡翠",
+      "variety": "藝伎",
+      "origin": "",
+      "process": "日曬",
+      "altitude": "1450–1750m",
+      "notes": [
+        "白花",
+        "柑橘",
+        "莓果",
+        "接骨木",
+        "莓子酸"
+      ],
+      "price": 1700,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 1700,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 1600,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 1500,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 25,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
+    },
+    {
+      "id": "tw-green-2026-11-23",
+      "name": "帕卡金綻",
+      "variety": "帕卡瑪拉",
+      "origin": "",
+      "process": "水洗",
+      "altitude": "1450–1750m",
+      "notes": [
+        "甜瓜",
+        "堅果",
+        "可可",
+        "檸檬",
+        "蔗糖甜"
+      ],
+      "price": 1060,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 1060,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 1020,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 980,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 23,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
+    },
+    {
+      "id": "tw-green-2026-11-28",
+      "name": "紅寶石",
+      "variety": "紅卡度艾",
+      "origin": "",
+      "process": "厭氧",
+      "altitude": "1450–1750m",
+      "notes": [
+        "柑橘",
+        "莓果",
+        "梅子",
+        "砂糖"
+      ],
+      "price": 1060,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 1060,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 1020,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 980,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 28,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
+    },
+    {
+      "id": "tw-green-2026-11-20",
+      "name": "綻放 92",
+      "variety": "黃卡杜艾",
+      "origin": "",
+      "process": "日曬",
+      "altitude": "1450–1750m",
       "notes": [
         "花香",
-        "波羅蜜",
         "柑橘",
-        "萊姆",
-        "莓果"
+        "楊桃",
+        "莓果",
+        "紅糖",
+        "佛手柑"
       ],
-      "price": 1200,
-      "weight": "公斤"
+      "price": 1030,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 1030,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 990,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 950,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 20,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
     },
     {
-      "id": "tw-green-melissa",
-      "name": "美莉思莊園",
-      "variety": "藝伎",
-      "origin": "宏都拉斯",
+      "id": "tw-green-2026-11-22",
+      "name": "琥珀之冠",
+      "variety": "黃卡度艾",
+      "origin": "",
       "process": "水洗",
-      "altitude": "1500m",
+      "altitude": "1450–1750m",
       "notes": [
-        "柑橘",
-        "萊姆酸",
-        "砂糖甜",
-        "茶感",
-        "堅果"
+        "李子",
+        "堅果",
+        "巧克力",
+        "香草",
+        "楓糖"
       ],
-      "price": 800,
-      "weight": "公斤"
+      "price": 1030,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 1030,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 990,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 950,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 22,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
     },
     {
-      "id": "tw-green-sulawesi-toraja",
-      "name": "蘇拉威西拖拿加班賽",
-      "variety": "S-795",
-      "origin": "印尼",
-      "process": "水洗",
-      "altitude": "1600–2100m",
+      "id": "tw-green-2026-11-21",
+      "name": "緋紅果韻",
+      "variety": "紅卡度艾",
+      "origin": "",
+      "process": "日曬",
+      "altitude": "1450–1750m",
       "notes": [
         "莓果",
-        "楓糖甜",
-        "柑橘甜酸",
-        "花香",
-        "body 醇厚香氣飽滿"
+        "葡萄",
+        "巧克力",
+        "桃子香"
       ],
-      "price": 700,
-      "weight": "公斤"
+      "price": 1030,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 1030,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 990,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 950,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 21,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
     },
     {
-      "id": "tw-green-anacafe",
-      "name": "加埃蘭",
-      "variety": "Anacafe 14",
-      "origin": "瓜地馬拉",
-      "process": "日曬",
-      "altitude": "1400–1700m",
-      "notes": [
-        "夏威夷果",
-        "葡萄柚皮",
-        "甜酸平衡",
-        "餘韻帶雪松清香"
-      ],
-      "price": 600,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-parana",
-      "name": "帕蘿娜",
-      "variety": "MG2",
-      "origin": "瓜地馬拉",
+      "id": "tw-green-2026-11-27",
+      "name": "花漾金韻",
+      "variety": "卡度艾＋波旁",
+      "origin": "",
       "process": "水洗",
-      "altitude": "1400–1700m",
+      "altitude": "1450–1750m",
       "notes": [
-        "微柑橘",
-        "甘草甜",
-        "菸草",
-        "松木",
-        "蜂蜜",
-        "綠茶"
-      ],
-      "price": 500,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-huehuetenango",
-      "name": "薇薇特南果",
-      "variety": "卡杜拉＋卡杜艾",
-      "origin": "瓜地馬拉",
-      "process": "水洗",
-      "altitude": "1600–1800m",
-      "notes": [
-        "香橙",
+        "檸檬",
         "可可",
-        "榛果",
-        "柑橘",
-        "西洋梨"
-      ],
-      "price": 400,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-huakui",
-      "name": "花魁谷",
-      "variety": "原生種",
-      "origin": "衣索比亞",
-      "process": "日曬",
-      "altitude": "2300–2400m",
-      "notes": [
-        "花香",
-        "山竹",
-        "佛手柑",
-        "藍莓",
-        "果汁感"
+        "杏仁",
+        "棕糖"
       ],
       "price": 660,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-bellucia",
-      "name": "寶貝露西",
-      "variety": "藝伎",
-      "origin": "衣索比亞",
-      "process": "水洗",
-      "altitude": "1900–2100m",
-      "notes": [
-        "檸檬皮",
-        "佛手柑",
-        "柚子",
-        "紅茶",
-        "茉莉花"
-      ],
-      "price": 550,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-yirgacheffe",
-      "name": "耶加雪夫",
-      "variety": "原生種",
-      "origin": "衣索比亞",
-      "process": "水洗",
-      "altitude": "1950–2150m",
-      "notes": [
-        "花香",
-        "桃子",
-        "白柚",
-        "橘子"
-      ],
-      "price": 550,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-begonna",
-      "name": "花貝果娜",
-      "variety": "原生種",
-      "origin": "衣索比亞",
-      "process": "水洗",
-      "altitude": "2000–2200m",
-      "notes": [
-        "茉莉花",
-        "杏桃",
-        "檸檬卡士達",
-        "橘子醬",
-        "可可",
-        "清爽的果酸"
-      ],
-      "price": 500,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-gotiti",
-      "name": "果丁丁",
-      "variety": "原生種",
-      "origin": "衣索比亞",
-      "process": "日曬",
-      "altitude": "1950–2150m",
-      "notes": [
-        "柑橘",
-        "杏桃",
-        "熟橘子",
-        "蜂蜜",
-        "紅糖"
-      ],
-      "price": 500,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-uraga",
-      "name": "烏拉嘎",
-      "variety": "原生種",
-      "origin": "衣索比亞",
-      "process": "水洗",
-      "altitude": "2000–2200m",
-      "notes": [
-        "柑橘",
-        "堅果",
-        "橙子",
-        "砂糖甜"
-      ],
-      "price": 400,
-      "weight": "公斤"
-    },
-    {
-      "id": "tw-green-hambella",
-      "name": "罕貝拉",
-      "variety": "原生種",
-      "origin": "衣索比亞",
-      "process": "日曬",
-      "altitude": "2000–2200m",
-      "notes": [
-        "柑橘",
-        "堅果",
-        "紅糖",
-        "蜜餞"
-      ],
-      "price": 400,
       "weight": "公斤",
-      "transcriptionStatus": "name_needs_confirmation"
+      "tiers": [
+        {
+          "unitPrice": 660,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 620,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 580,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 27,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
+    },
+    {
+      "id": "tw-green-2026-11-24",
+      "name": "綻放珍藏",
+      "variety": "卡度艾＋波旁",
+      "origin": "",
+      "process": "日曬",
+      "altitude": "1450–1750m",
+      "notes": [
+        "葡萄",
+        "巧克力",
+        "可可茶",
+        "柑橘",
+        "口感飽和"
+      ],
+      "price": 660,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 660,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 620,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 580,
+          "minimumKg": 30
+        }
+      ],
+      "series": "綻放莊園珍藏系列",
+      "sourceNumber": 24,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
+    },
+    {
+      "id": "tw-green-2026-11-rose",
+      "name": "玫瑰",
+      "variety": "寶貝藝伎",
+      "origin": "瓜地馬拉",
+      "process": "水洗",
+      "altitude": "1400–1600m",
+      "notes": [
+        "覆盆子",
+        "巧克力",
+        "柑橘酸甜",
+        "莓果",
+        "明亮的酸值"
+      ],
+      "price": 530,
+      "weight": "公斤",
+      "tiers": [
+        {
+          "unitPrice": 530,
+          "minimumKg": 1
+        },
+        {
+          "unitPrice": 490,
+          "minimumKg": 5
+        },
+        {
+          "unitPrice": 450,
+          "minimumKg": 30
+        }
+      ],
+      "series": "",
+      "sourceNumber": null,
+      "batch": "2026-11",
+      "currency": "TWD",
+      "taxIncluded": false
     }
   ],
   "roastingFee": {
-    "amount": 300,
-    "sourceText": "咖啡代烘費用＋包裝費：300 元",
+    "amount": null,
     "currency": "TWD",
-    "currencyStatus": "inferred",
     "billingUnit": null,
-    "note": "原圖未說明按公斤、批次或訂單計價，須確認後再計算總價。"
-  }
+    "note": "本期豆單未載代烘與包裝費；烘後重量、計費方式及交期請洽詢。"
+  },
+  "greenArrivalMonth": "2026-11",
+  "greenShippingThreshold": 3000,
+  "greenTaxIncluded": false
 };
