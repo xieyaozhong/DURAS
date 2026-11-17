@@ -1,119 +1,132 @@
-// 2026 年 11 月生豆依最新豆單；1／5／30 公斤級距均為每公斤未稅單價，已由品牌確認。
 window.DURAS_CATALOG = {
-  "roastedSource": "4-Photo-4.jpg",
-  "roastedHeading": "獨樂思熟豆單",
+  "roastedSource": "menu-roasted-2026.pdf",
+  "roastedHeading": "2026 年 11 月熟豆單",
   "roasted": [
     {
-      "id": "tw-edward",
-      "name": "愛德華",
+      "id": "tw-jade",
+      "name": "綻放翡翠",
       "variety": "藝伎",
-      "origin": "巴拿馬",
-      "process": "水洗",
-      "altitude": "1600–1900m",
-      "notes": [
-        "檸檬",
-        "萊姆",
-        "梅子",
-        "白葡萄",
-        "香草",
-        "蜂蜜",
-        "風味平衡細緻"
-      ],
-      "price": 900,
-      "weight": "半磅"
-    },
-    {
-      "id": "tw-amber-garden",
-      "name": "琥珀花園",
-      "variety": "藝伎",
-      "origin": "宏都拉斯",
       "process": "日曬",
-      "altitude": "1450–1700m",
+      "origin": "宏都拉斯",
+      "altitude": "1450–1750m",
+      "weight": "100g",
+      "price": null,
       "notes": [
         "白花",
-        "佛手柑",
+        "柑橘",
+        "莓果",
+        "接骨木",
+        "莓子酸"
+      ]
+    },
+    {
+      "id": "tw-bloom-92",
+      "name": "綻放 92",
+      "variety": "黃卡杜艾",
+      "process": "日曬",
+      "origin": "宏都拉斯",
+      "altitude": "1450–1750m",
+      "weight": "120g",
+      "price": null,
+      "notes": [
+        "花香",
+        "柑橘",
         "楊桃",
         "莓果",
-        "柑橘"
-      ],
-      "price": 800,
-      "weight": "半磅"
+        "紅糖",
+        "佛手柑"
+      ]
+    },
+    {
+      "id": "tw-crimson-fruit",
+      "name": "緋紅果韻",
+      "variety": "紅卡度艾",
+      "process": "日曬",
+      "origin": "宏都拉斯",
+      "altitude": "1450–1750m",
+      "weight": "120g",
+      "price": null,
+      "notes": [
+        "果",
+        "葡萄",
+        "巧克力",
+        "桃子香"
+      ]
     },
     {
       "id": "tw-mozart",
       "name": "莫札特",
-      "variety": "卡杜拉",
-      "origin": "哥斯大黎加",
+      "variety": "卡杜艾",
       "process": "葡萄乾蜜處理",
+      "origin": "哥斯大黎加",
       "altitude": "1800–1900m",
+      "weight": "半磅",
+      "price": null,
       "notes": [
         "紫葡萄及莓果汁的酸甜口感",
         "瓜類甜味",
         "酒釀發酵香氣"
-      ],
-      "price": 600,
-      "weight": "半磅"
-    },
-    {
-      "id": "tw-sulawesi-toraja",
-      "name": "蘇拉威西拖拿加班賽",
-      "variety": "S-795",
-      "origin": "印尼",
-      "process": "水洗",
-      "altitude": "1600–2100m",
-      "notes": [
-        "莓果",
-        "楓糖甜",
-        "柑橘甜酸",
-        "花香",
-        "body 醇厚香氣飽滿"
-      ],
-      "price": 600,
-      "weight": "半磅"
+      ]
     },
     {
       "id": "tw-huakui",
       "name": "花魁谷",
       "variety": "原生種",
-      "origin": "衣索比亞",
       "process": "日曬",
+      "origin": "衣索比亞",
       "altitude": "2300–2400m",
+      "weight": "半磅",
+      "price": null,
       "notes": [
         "花香",
         "山竹",
         "佛手柑",
         "藍莓",
         "果汁感"
-      ],
-      "price": 600,
-      "weight": "半磅"
+      ]
     },
     {
-      "id": "tw-kaffe",
-      "name": "卡菲妞",
-      "variety": "藝伎",
-      "origin": "衣索比亞",
+      "id": "tw-golden-floral",
+      "name": "花漾金韻",
+      "variety": "卡度艾＋波旁",
       "process": "水洗",
-      "altitude": "1800–2000m",
+      "origin": "宏都拉斯",
+      "altitude": "1450–1750m",
+      "weight": "半磅",
+      "price": null,
       "notes": [
         "檸檬",
-        "白柚",
-        "花茶香",
-        "紅糖",
-        "蜜糖",
-        "酸值細緻"
-      ],
-      "price": 600,
-      "weight": "半磅",
-      "transcriptionStatus": "name_needs_confirmation"
+        "可可",
+        "杏仁",
+        "棕糖"
+      ]
     },
     {
-      "id": "tw-begonna",
-      "name": "花貝果娜",
+      "id": "tw-bloom-reserve",
+      "name": "綻放珍藏",
+      "variety": "卡度艾＋波旁",
+      "process": "日曬",
+      "origin": "宏都拉斯",
+      "altitude": "1450–1750m",
+      "weight": "半磅",
+      "price": null,
+      "notes": [
+        "葡萄",
+        "巧克力",
+        "可可茶",
+        "柑橘",
+        "口感飽和"
+      ]
+    },
+    {
+      "id": "tw-fruit-begonna",
+      "name": "花果貝娜",
       "variety": "原生種",
-      "origin": "衣索比亞",
       "process": "水洗",
+      "origin": "衣索比亞",
       "altitude": "2000–2200m",
+      "weight": "半磅",
+      "price": null,
       "notes": [
         "茉莉花",
         "杏桃",
@@ -121,103 +134,80 @@ window.DURAS_CATALOG = {
         "橘子醬",
         "可可",
         "清爽的果酸"
-      ],
-      "price": 450,
-      "weight": "半磅"
+      ]
     },
     {
-      "id": "tw-rose-baby",
-      "name": "玫瑰寶貝",
-      "variety": "藝伎",
-      "origin": "瓜地馬拉",
+      "id": "tw-huehuetenango",
+      "name": "薇薇特南果",
+      "variety": "卡杜拉＋卡杜艾",
       "process": "水洗",
-      "altitude": "1400–1600m",
-      "notes": [
-        "覆盆子",
-        "巧克力",
-        "柑橘酸甜",
-        "莓果",
-        "明亮的酸值"
-      ],
-      "price": 500,
-      "weight": "半磅"
-    },
-    {
-      "id": "tw-morning-dew",
-      "name": "晨露莊園",
-      "variety": "鐵皮卡",
       "origin": "瓜地馬拉",
-      "process": "水洗",
-      "altitude": "1500–1700m",
+      "altitude": "1600–1800m",
+      "weight": "半磅",
+      "price": null,
       "notes": [
-        "巧克力",
-        "堅果",
-        "漿果",
-        "李子",
-        "白花香"
-      ],
-      "price": 500,
-      "weight": "半磅"
+        "香橙",
+        "可可",
+        "榛果",
+        "柑橘",
+        "西洋梨"
+      ]
     },
     {
-      "id": "tw-pink-bourbon",
-      "name": "粉紅波旁",
+      "id": "tw-no13",
+      "name": "龍津壕13號精品咖啡豆",
       "variety": null,
-      "origin": "瓜地馬拉",
-      "process": "水洗",
-      "altitude": "1500–1700m",
+      "process": null,
+      "origin": null,
+      "altitude": null,
+      "weight": "半磅",
+      "price": null,
       "notes": [
-        "月桂香",
-        "黑莓",
-        "青葡萄",
-        "水蜜桃香氣",
-        "楓糖甜"
+        "堅果",
+        "飽滿立體",
+        "濃郁絲滑"
       ],
-      "price": 400,
-      "weight": "半磅"
+      "variants": [
+        {
+          "weight": "半磅",
+          "price": null
+        },
+        {
+          "weight": "一磅",
+          "price": null
+        }
+      ]
     }
   ],
   "dripBags": [
     {
-      "id": "tw-drip-washed",
-      "name": "水洗精品耳掛",
+      "id": "tw-drip-nov",
+      "name": "耳掛包",
       "variety": null,
       "origin": null,
-      "process": "水洗",
+      "process": null,
       "altitude": null,
       "notes": [],
-      "price": 400,
-      "weight": "10 入 × 11g"
+      "price": null,
+      "weight": "10 入"
     },
     {
-      "id": "tw-drip-natural",
-      "name": "日曬精品耳掛",
-      "variety": null,
-      "origin": null,
-      "process": "日曬",
-      "altitude": null,
-      "notes": [],
-      "price": 400,
-      "weight": "10 入 × 11g"
-    },
-    {
-      "id": "tw-drip-gesha",
-      "name": "藝伎精品耳掛",
+      "id": "tw-drip-gesha-nov",
+      "name": "藝伎耳掛包",
       "variety": "藝伎",
       "origin": null,
       "process": null,
       "altitude": null,
       "notes": [],
-      "price": 500,
-      "weight": "10 入 × 11g"
+      "price": null,
+      "weight": "10 入"
     }
   ],
   "shipping": {
-    "threshold": 2000,
-    "sourceText": "以上滿 2000 免運",
-    "scope": "照片 4 豆單與耳掛區塊",
+    "threshold": null,
+    "sourceText": "台灣熟豆與耳掛運費請洽詢",
+    "scope": "台灣熟豆與耳掛",
     "currency": "TWD",
-    "currencyStatus": "inferred",
     "serviceArea": null
   },
   "greenSource": "menu-nov-2026.jpg",

@@ -6,15 +6,15 @@ globalThis.DURAS_BLESSINGS = [
     es: 'El saber no ocupa lugar.',
     source: 'https://www.carm.es/edu/pub/21087_2023/pdf/libro_RefraneroEspanolenelAula_04.pdf#page=80',
     tw: {
-      id: 'tw-amber-garden', bean: '琥珀花園', origin: '宏都拉斯', process: '日曬', title: '為花香取個名字',
-      notes: '白花、佛手柑、楊桃、莓果、柑橘',
-      meaning: '這口像白花，那口像楊桃。願你今天也能為一種說不出名字的喜歡，找到剛剛好的詞。',
+      id: 'tw-jade', bean: '綻放翡翠', origin: '宏都拉斯', process: '日曬', title: '為花香取個名字',
+      notes: '白花、柑橘、莓果、接骨木、莓子酸',
+      meaning: '這口像白花，那口像柑橘。願你今天也能為一種說不出名字的喜歡，找到剛剛好的詞。',
       translation: '知識不占地方，多學一樣總是好的。'
     },
     cn: {
-      id: 'cn-amber-garden', bean: '琥珀花园', origin: '洪都拉斯', process: '日晒', title: '给花香起个名字',
-      notes: '白花、佛手柑、杨桃、莓果、柑橘',
-      meaning: '这口像白花，那口像杨桃。愿你今天也能为一种说不出名字的喜欢，找到恰到好处的词。',
+      id: 'cn-jade', bean: '绽放翡翠', origin: '洪都拉斯', process: '日晒', title: '给花香起个名字',
+      notes: '白花、柑橘、莓果、接骨木、莓子酸',
+      meaning: '这口像白花，那口像柑橘。愿你今天也能为一种说不出名字的喜欢，找到恰到好处的词。',
       translation: '知识不占地方，多学一样总是好的。'
     }
   },
@@ -58,16 +58,16 @@ globalThis.DURAS_BLESSINGS = [
     es: 'Al mal tiempo, buena cara.',
     source: 'https://www.carm.es/edu/pub/21087_2023/pdf/libro_RefraneroEspanolenelAula_04.pdf#page=38',
     tw: {
-      id: 'tw-rose-baby', bean: '玫瑰寶貝', origin: '瓜地馬拉', process: '水洗', title: '雨天的巧克力',
-      notes: '覆盆子、巧克力、柑橘酸甜、莓果、明亮的酸值',
-      meaning: '覆盆子的酸裡，有巧克力的香。願你碰上不順的午後，也能找到一件讓自己笑出來的小事。',
-      translation: '天氣不好，依然可以笑臉相迎；遇到難處也一樣。'
+      id: 'tw-huehuetenango', bean: '薇薇特南果', origin: '瓜地馬拉', process: '水洗', title: '雨天的可可香',
+      notes: '香橙、可可、榛果、柑橘、西洋梨',
+      meaning: '一口咖啡裡，有香橙的明亮，也有可可的暖香。願你碰上不順的午後，也能找到一件讓自己笑出來的小事。',
+      translation: '遇上壞天氣，也能笑臉相迎。'
     },
     cn: {
-      id: 'cn-rose-baby', bean: '玫瑰宝贝', origin: '危地马拉', process: '水洗', title: '雨天的巧克力',
-      notes: '覆盆子、巧克力、柑橘酸甜、莓果、明亮的酸值',
-      meaning: '覆盆子的酸里，有巧克力的香。愿你碰上不顺的午后，也能找到一件让自己笑出来的小事。',
-      translation: '天气不好，依然可以笑脸相迎；遇到难处也一样。'
+      id: 'cn-huehuetenango', bean: '薇薇特南果', origin: '危地马拉', process: '水洗', title: '雨天的可可香',
+      notes: '香橙、可可、榛果、柑橘、西洋梨',
+      meaning: '一口咖啡里，有香橙的明亮，也有可可的暖香。愿你碰上不顺的午后，也能找到一件让自己笑出来的小事。',
+      translation: '遇上坏天气，也能笑脸相迎。'
     }
   },
   {
@@ -75,13 +75,13 @@ globalThis.DURAS_BLESSINGS = [
     es: 'Quien tiene un amigo tiene un tesoro.',
     source: 'https://www.carm.es/edu/pub/21087_2023/pdf/libro_RefraneroEspanolenelAula_04.pdf#page=18',
     tw: {
-      id: 'tw-begonna', bean: '花貝果娜', origin: '衣索比亞', process: '水洗', title: '替你留一杯',
+      id: 'tw-fruit-begonna', bean: '花果貝娜', origin: '衣索比亞', process: '水洗', title: '替你留一杯',
       notes: '茉莉花、杏桃、檸檬卡士達、橘子醬、可可、清爽的果酸',
       meaning: '茉莉花和橘子醬的香氣，讓人想起總願意分你一口甜點的朋友。願你們下次見面，還有慢慢喝完一杯的時間。',
       translation: '有一位朋友，就像擁有一份寶藏。'
     },
     cn: {
-      id: 'cn-begonna', bean: '花贝果娜', origin: '埃塞俄比亚', process: '水洗', title: '给你留一杯',
+      id: 'cn-fruit-begonna', bean: '花果贝娜', origin: '埃塞俄比亚', process: '水洗', title: '给你留一杯',
       notes: '茉莉花、杏桃、柠檬卡士达、橘子酱、可可、清爽的果酸',
       meaning: '茉莉花和橘子酱的香气，让人想起总愿意分你一口甜点的朋友。愿你们下次见面，还有慢慢喝完一杯的时间。',
       translation: '有一位朋友，就像拥有一份宝藏。'
